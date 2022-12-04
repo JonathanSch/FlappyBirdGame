@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shtaiger Jump</title>
+    <link rel="shortcut icon" href="assets/fotoShtaiger.png">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="inicia.html" class="btn btn-info btn-lg"  onclick="localStorage.clear()">Inicia sesión</a>
+        <a href="crear.html" class="btn btn-info btn-lg" onclick="localStorage.clear()">Registrarte</a>
+        <a href="inicia.html" class="btn btn-danger btn-lg" onclick="localStorage.clear()" >Cerrar sesión</a>
+      </nav>
+    <canvas id='canvas' class="mt-3" width="400" height="500"></canvas>
+
+    <h1 id='jugar'></h1>
+    <h1 id="score"></h1>
+    <h1 id="record"></h1>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
